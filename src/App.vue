@@ -33,7 +33,7 @@ export default {
       <img src="./assets/logo.svg" alt="logo" class="w-[100px]" />
     </div>
   </header>
-  <main class="pt-[32px] md:flex md:flex-row-reverse md:pt-0">
+  <main class="pt-[32px] md:flex md:flex-row-reverse md:pt-0 bg-gradientFirst">
     <section class="md:w-[41.7%]">
       <img
         class="w-full md:hidden"
