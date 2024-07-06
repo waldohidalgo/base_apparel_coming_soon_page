@@ -104,6 +104,7 @@ export default {
           <button
             @click.prevent="submit"
             class="bg-gradientSecond absolute right-[-2px] top-[-1px] bottom-[-1px] w-[63px] rounded-[20px/50%] flex items-center justify-center hover:scale-110 shadow-[0_7px_11px_2px_#00000040] transition md:w-[102px]"
+            aria-label="submit"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
               <path
