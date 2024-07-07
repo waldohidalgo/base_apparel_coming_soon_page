@@ -33,7 +33,10 @@ export default {
       <img src="./assets/logo.svg" alt="logo" class="w-[100px]" />
     </div>
   </header>
-  <main class="pt-[32px] md:flex md:flex-row-reverse md:pt-0 bg-gradientFirst">
+  <main class="pt-[32px] md:flex md:flex-row-reverse md:pt-0 relative">
+    <div
+      class="absolute z-[-1] w-full h-full bg-[url('./assets/bg-pattern-desktop.svg')] hidden lg:block"
+    ></div>
     <section class="md:w-[41.7%]">
       <img
         class="w-full md:hidden"
